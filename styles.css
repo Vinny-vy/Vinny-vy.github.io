@@ -1,0 +1,50 @@
+.menu{
+    height:80px;
+    background-color:whitesmoke;
+    text-align: center;
+    color: red;
+    font-size:65px;
+
+}
+
+.content{
+    height: 520px;
+   background-image:url('ab.jpg');
+    background-color:white;
+
+}
+.footer{
+    height:150px;
+    background-color:lightyellow;
+    text-align:center;
+    font-size: 30px;
+   
+    color:green;
+}
+.button{
+    background-color:black;
+    border-radius:220%;
+   
+    color:blue;
+    text-align:center;
+    font-size:30px;
+}
+.forms{
+    color:white;
+    font-size:40px;
+}
+.forms2{
+    color:white;
+    font-size:30px;
+}
+.b{
+    background-color:lightskyblue;
+    
+    
+}
+.hello{
+    width:45%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}

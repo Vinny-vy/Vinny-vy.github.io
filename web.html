@@ -1,0 +1,84 @@
+<!doctype html>
+<html lan="en">
+    <head>
+        <meta charset='UTF-8'>
+        <title> vinny's resume page</title>
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+ <style>
+ body{
+     background-image:url('paris.jpg');
+ }
+ </style> 
+ 
+    <body>
+        
+        <div class="page">
+            <div class="menu" >MY RESUME :</div>
+         
+              <div class="photo">
+
+              </div>
+               
+            
+            <div class="content" >
+                <br>
+                <br>
+                   <input type="button" id="a" class="button" value="profile pic" onclick="window.location.href='pro.html';">
+                    <br/>
+                    <br>
+                    <br>
+                    <br>
+           <input type="button"  class="button" id="b" name="button" value="contact information" onmouseover="myfun()" onclick="window.location.href='contact.html';" >
+           <br/>
+           <br>
+           <br>
+           <br>
+             <input type="button" class="button" id="c" name="button" value="personal information" onclick="window.location.href='personal.html';" >
+          
+           <br/>
+           <br>
+           <br>
+          
+           <br>
+             <input type="button" class="button" id="d" name="button" value="projects" onclick="window.location.href='project.html';">
+           <br/>
+           <br>
+           <br>
+           <br>
+            <input type="button" class="button" id="e" name="button" value="qualifications" onclick="window.location.href='qualification.html';">
+            </div>
+            <div class="footer"> ABOUT WEBSITE :
+                Fewer things about me has been put up in buttons above that is a brief phrase of highlighting my values as a candidate. 
+            </div>
+        </div>
+    
+        <script>
+        document.getElementById("a").onmouseover = function() {mouseOver()};
+        document.getElementById("b").onmouseover = function() {mouseOver()};
+        document.getElementById("c").onmouseover = function() {mouseOver()};
+        document.getElementById("d").onmouseover = function() {mouseOver()};
+        document.getElementById("e").onmouseover = function() {mouseOver()};
+        document.getElementById("a").onmouseout = function() {mouseOut()};
+        document.getElementById("b").onmouseout = function() {mouseOut()};
+        document.getElementById("c").onmouseout = function() {mouseOut()};
+        document.getElementById("d").onmouseout = function() {mouseOut()};
+        document.getElementById("e").onmouseout = function() {mouseOut()};
+        function mouseOver() {
+  document.getElementById("a").style.color = "red";
+  document.getElementById("b").style.color = "red";
+  document.getElementById("c").style.color = "red";
+  document.getElementById("d").style.color = "red";
+  document.getElementById("e").style.color = "red";
+}
+
+function mouseOut() {
+  document.getElementById("a").style.color = "blue";
+  document.getElementById("b").style.color = "blue";
+  document.getElementById("c").style.color = "blue";
+  document.getElementById("d").style.color = "blue";
+  document.getElementById("e").style.color = "blue";
+}
+        </script>
+    </body>
+</html>
