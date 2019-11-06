@@ -11,7 +11,7 @@
     height: 520px;
    background-image:url('ab.jpg');
     background-color:white;
-
+   background-repeat:no-repeat;
 }
 .footer{
     height:150px;
@@ -30,8 +30,9 @@
     font-size:30px;
 }
 .forms{
-    color:white;
+    color:rgb(73, 60, 247);
     font-size:40px;
+    text-align: center;
 }
 .forms2{
     color:white;
@@ -58,4 +59,7 @@
     background-color:skyblue;
     color:black;
     font-size:20px;
+}
+.p{
+    font-size:30px;
 }
